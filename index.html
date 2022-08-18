@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <section class="bg-green-400 p-5 w-3/5 mx-auto mt-5 rounded-lg">
+        <div class="text-center">
+            <h1 class="mb-4">Discount 30%</h1>
+            <div class="grid grid-cols-2 gap-4 mb-4 ">
+                <div class="bg-yellow-400 rounded-lg p-4 text-white">
+                    <h2 class="text-3xl">Price</h2>
+                    <h3 class="text-3xl">Tk<span id="price-total">00</span></h3>
+                </div>
+                <div class="bg-red-400 rounded-lg p-4 text-white">
+                    <h2 class="text-3xl">Discount</h2>
+                    <h3 class="text-3xl">Tk<span id="discount-total">00</span> </h3>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+            <div class="bg-red-400 p-4 text-center rounded-lg">
+                <input id="discount-field" class="w-2/4 mx-auto p-2 rounded-lg mt-7" type="text"
+                    placeholder="Please Input Price">
+                <button id="btn-calculate" class="bg-green-400 py-2 px-6 mt-4 rounded-lg">Apply</button>
+            </div>
+            <div class="bg-red-400 text-center p-4 rounded-lg">
+                <h1>Verification Code "DOM"</h1>
+                <input class="mt-2 p-2 rounded-lg" id="dom-input" type="text">
+            </div>
+        </div>
+    </section>
+    <section>
+
+
+    </section>
+
+    <script src="js/discount.js"></script>
+</body>
+
+</html>
